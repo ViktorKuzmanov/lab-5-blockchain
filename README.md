@@ -1,15 +1,18 @@
-# Basic Sample Hardhat Project
+# Lab 5 - FinkiCoin
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+### 1. Clone/Download the Repository
 
-Try running some of the following tasks:
+### 2. Install Dependencies:
+```
+$ npm install
+```
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+### 3. Compile Smart Contracts
+```
+$ npx hardhat compile
+```
+
+### 5. Deploy to rinkeby network 
+```
+$ npx hardhat run --network rinkeby ./scripts/deployFinkiCoin.js
 ```
